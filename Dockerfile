@@ -1,1 +1,1 @@
-FROM fanvinga/docker-h5ai
+FROM fanvinga/docker-h5ai:auth
