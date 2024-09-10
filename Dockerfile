@@ -1,1 +1,3 @@
-FROM fanvinga/docker-h5ai
+FROM nginx:alpine3.18
+
+COPY ./default.conf /etc/nginx/conf.d/default.conf
